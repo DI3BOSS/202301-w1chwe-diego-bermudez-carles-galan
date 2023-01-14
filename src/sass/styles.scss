@@ -2,5 +2,20 @@
 @use "variables/variables";
 
 body {
-  background-color: #ff7654;
+  background: variables.$color-contrast-white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: relative;
+  width: 320px;
+  height: 10133.61px;
+
+  @media screen and (min-width: 321px) and (max-width: 1920px) {
+    position: relative;
+    width: 1440px;
+    height: 8130px;
+    background-color: variables.$color-primary;
+  }
 }
