@@ -6,16 +6,31 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-
   position: relative;
-  width: 320px;
   height: 10133.61px;
 
   @media screen and (min-width: 321px) and (max-width: 1920px) {
-    position: relative;
-    width: 1440px;
-    height: 8130px;
     background-color: variables.$color-primary;
+  }
+}
+
+.hero-section {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../media/img/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
+
+  padding: 24px 16px;
+  gap: 32px;
+  flex: 1;
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 288px;
+  height: 98px;
+
+  &__logo {
+    flex: 1;
   }
 }
