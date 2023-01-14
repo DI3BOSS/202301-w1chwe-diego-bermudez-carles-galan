@@ -1,1 +1,14 @@
+@import url("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+@import url("/node_modules/@fontsource/rubik/400.css");
+@import url("/node_modules/@fontsource/playfair-display/400.css");
 
+$color-primary: #ff7757;
+$color-primary-light: #ffd2c7;
+$color-secondary: #331811;
+$color-secondary-light: #61291c;
+$color-contrast-dark: #172432;
+$color-contrast-light: #767e86;
+$color-contrast-white: #ffffff;
+
+$font-title: "Playfair Display", serif;
+$font-content: Rubik, sans-serif;
