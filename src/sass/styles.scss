@@ -1,5 +1,6 @@
 @use "reset/reset";
 @use "variables/variables";
+@use "componentes/content-block.scss";
 
 body {
   background: variables.$color-contrast-white;
