@@ -15,6 +15,13 @@
   justify-content: space-between;
 
   &__input {
+    display: flex;
+    flex-direction: column;
+    height: 58px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    color: variables.$color-contrast-black;
+
     label {
       font-family: variables.$font-content;
       text-transform: variables.$text-uppercase;
@@ -23,15 +30,6 @@
     input {
       font-family: variables.$font-title;
       border: none;
-      color: variables.$color-contrast-dark;
     }
   }
-}
-
-.booking-form__input {
-  display: flex;
-  flex-direction: column;
-  height: 58px;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
 }
