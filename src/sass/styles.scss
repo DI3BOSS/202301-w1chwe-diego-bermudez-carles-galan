@@ -1,8 +1,7 @@
 @use "reset/reset";
 @use "variables/variables";
-@use "componentes/content-block";
-@use "componentes/section-title";
-
+@use "componentes/form-container";
+@use "componentes/section-title.scss";
 body {
   background: variables.$color-contrast-white;
   display: flex;
