@@ -1,0 +1,73 @@
+@use "../variables/variables";
+
+.destinations {
+  padding: variables.$layout-padding-lateral;
+  position: relative;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    padding-top: 68px;
+    font-family: variables.$font-title;
+    text-transform: variables.$text-capitalize;
+    color: variables.$color-contrast-dark;
+    font-size: 40px;
+    line-height: 53.32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    border-bottom: variables.$layout-title-line-height solid
+      variables.$color-primary;
+    width: 227px;
+  }
+
+  p {
+    font-family: variables.$font-content;
+    color: variables.$color-contrast-light;
+    font-size: 18px;
+  }
+}
+
+.image-with-caption {
+  display: flex;
+  justify-content: center;
+  height: 320px;
+  width: 288px;
+  &__image {
+    position: relative;
+    width: 100%;
+    border-radius: 16px;
+  }
+  &__caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    color: variables.$color-contrast-white;
+    bottom: 41.5px;
+    line-height: 32px;
+    text-align: left;
+
+    h3 {
+      font-size: 24px;
+      font-family: variables.$font-title;
+      font-weight: 500;
+      line-height: 31.99px;
+    }
+
+    span {
+      display: flex;
+      justify-content: space-between;
+      span {
+        font-family: variables.$font-content;
+      }
+      i {
+        height: 24px;
+        width: 16.88px;
+        left: 3.56px;
+      }
+    }
+  }
+}
