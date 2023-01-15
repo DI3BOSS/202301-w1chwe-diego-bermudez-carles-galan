@@ -1,0 +1,37 @@
+@use "../variables/variables";
+
+.form-container__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 595px;
+  border-radius: 16px;
+  background-color: variables.$color-contrast-white;
+  padding: 16px;
+}
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__input {
+    label {
+      font-family: variables.$font-content;
+      text-transform: variables.$text-uppercase;
+      color: variables.$color-contrast-light;
+    }
+    input {
+      font-family: variables.$font-title;
+      border: none;
+      color: variables.$color-contrast-dark;
+    }
+  }
+}
+
+.booking-form__input {
+  display: flex;
+  flex-direction: column;
+  height: 58px;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
