@@ -8,7 +8,14 @@ $color-secondary: #331811;
 $color-secondary-light: #61291c;
 $color-contrast-dark: #172432;
 $color-contrast-light: #767e86;
-$color-contrast-white: #ffffff;
+$color-contrast-white: #fff;
+$color-contrast-black: #000;
 
 $font-title: "Playfair Display", serif;
 $font-content: Rubik, sans-serif;
+$text-uppercase: uppercase;
+$text-capitalize: capitalize;
+
+$layout-border-radius: 10px;
+$layout-title-line-height: 3px;
+$layout-padding-lateral: 16px;

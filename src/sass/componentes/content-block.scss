@@ -1,7 +1,10 @@
+@use "../variables/variables";
+
 .content-block {
   display: flex;
   flex-direction: column;
-  border-radius: 5rem;
+  border-radius: variables.$layout-border-radius;
+  background-color: variables.$color-contrast-white;
 
   &__form {
     display: flex;
@@ -10,8 +13,11 @@
     &__label {
       display: flex;
       flex-direction: column;
+      font-family: variables.$font-content;
+      text-transform: variables.$text-uppercase;
     }
   }
+
   &__anchor {
     display: flex;
     flex-direction: row;
